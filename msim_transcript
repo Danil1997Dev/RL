@@ -1,0 +1,37 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do OQPSK_MOD_run_msim_gate_systemverilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+. {OQPSK_MOD.svo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:36:41 on Feb 21,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+." OQPSK_MOD.svo 
+# -- Compiling module OQPSK_MOD
+# 
+# Top level modules:
+# 	OQPSK_MOD
+# End time: 19:36:41 on Feb 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA/18.1/VRL/OQPSK_MOD {C:/intelFPGA/18.1/VRL/OQPSK_MOD/OQPSK_MOD.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:36:41 on Feb 21,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA/18.1/VRL/OQPSK_MOD" C:/intelFPGA/18.1/VRL/OQPSK_MOD/OQPSK_MOD.v 
+# ** Error: (vlog-7) Failed to open design unit file "C:/intelFPGA/18.1/VRL/OQPSK_MOD/OQPSK_MOD.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:36:41 on Feb 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./OQPSK_MOD_run_msim_gate_systemverilog.do line 10
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/intelFPGA/18.1/VRL/OQPSK_MOD {C:/intelFPGA/18.1/VRL/OQPSK_MOD/OQPSK_MOD.v}"

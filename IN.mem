@@ -1,0 +1,19 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/TOP/iq/a
+// format=mti addressradix=d dataradix=b version=1.0 wordsperline=1
+15: 1010100
+14: 1010100
+13: 1010100
+12: 1010100
+11: 1010100
+10: 1010100
+ 9: 1010100
+ 8: 1010100
+ 7: 1010100
+ 6: 1010100
+ 5: 1010100
+ 4: 1010100
+ 3: 1010100
+ 2: 1010100
+ 1: 1010100
+ 0: 1010100

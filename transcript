@@ -1,0 +1,1988 @@
+do tcl1.do
+# vsim work.TOP 
+# Start time: 15:29:53 on Feb 23,2021
+# Loading sv_std.std
+# Loading work.TOP
+# Loading work.OQPSK_MOD
+# Loading work.MEM_SIGNAL_ROM
+# Loading work.COUNT
+# Loading work.SHIFT_Q
+# Loading work.PRD
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LP'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/SHIFT_Q.sv(8).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(33): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'CNST'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'IC'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'QS'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# WARNING: No extended dataflow license exists
+run
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq0
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq0
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq1
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq1
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc0
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc0
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc1
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc1
+#          0 mod.i=      x,mod.qo=  x,mod.q=x,mod.s=  x,mod.c=  x
+#          1 mod.i=      0,mod.qo=  0,mod.q=x,mod.s=  0,mod.c=  0
+#          3 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#          7 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#          9 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#         11 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#         13 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#         15 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#         17 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#         19 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#         21 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#         23 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#         25 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#         27 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#         29 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#         31 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+#         33 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#         35 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#         37 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#         41 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#         43 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#         45 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#         47 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#         49 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#         51 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#         53 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#         55 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#         57 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#         59 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#         61 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#         63 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#         65 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+#         67 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#         69 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#         71 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#         75 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#         77 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#         79 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#         81 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#         83 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#         85 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#         87 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#         89 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#         91 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#         93 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#         95 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#         97 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#         99 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+run
+#        101 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#        103 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#        105 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#        109 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#        111 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#        113 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#        115 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#        117 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#        119 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#        121 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#        123 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#        125 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#        127 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#        129 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#        131 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#        133 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+#        135 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#        137 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#        139 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#        143 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#        145 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#        147 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#        149 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#        151 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#        153 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#        155 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#        157 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#        159 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#        160 mod.i=     44,mod.qo= 84,mod.q=1,mod.s= 93,mod.c= 75
+#        161 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        163 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        165 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        167 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        169 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        171 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        173 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        177 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        179 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        181 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        183 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        185 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        187 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        189 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        191 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        193 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        195 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        197 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        199 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+run
+#        201 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        203 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        205 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        207 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        211 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        213 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        215 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        217 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        219 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        221 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        223 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        225 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        227 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        229 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        231 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        233 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        235 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        237 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        239 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        241 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        245 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        247 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        249 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        251 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        253 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        255 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        257 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        259 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        261 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        263 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        265 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        267 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        269 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        271 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        273 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        275 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        279 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        281 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        283 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        285 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        287 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        289 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        291 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        293 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        295 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        297 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        299 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+run
+#        301 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        303 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        305 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        307 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        309 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        313 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        315 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        317 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        319 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        321 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        323 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        325 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        327 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        329 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        331 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        333 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        335 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        337 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        339 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        341 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        343 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        347 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        349 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        351 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        353 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        355 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        357 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        359 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        361 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        363 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        365 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        367 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        369 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        371 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        373 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        375 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        377 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        381 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        383 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        385 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        387 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        389 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        391 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        393 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        395 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        397 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        399 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+run
+#        401 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        403 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        405 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        407 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        409 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        411 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        415 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        417 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        419 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        421 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        423 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        425 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        427 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        429 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        431 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        433 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        435 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        437 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        439 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        441 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        443 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        445 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        449 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        451 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        453 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        455 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        457 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        459 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        461 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        463 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        465 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        467 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        469 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        471 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        473 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        475 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        477 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        479 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        483 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        485 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        487 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        489 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        491 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        493 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        495 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        497 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        499 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+run
+#        501 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        503 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        505 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        507 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        509 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        511 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        513 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        517 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        519 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        521 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        523 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        525 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        527 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        529 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        531 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        533 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        535 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        537 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        539 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        541 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        543 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        545 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        547 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        551 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        553 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        555 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        557 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        559 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        561 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        563 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        565 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        567 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        569 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        571 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        573 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        575 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        577 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        579 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        581 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        585 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        587 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        589 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        591 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        593 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        595 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        597 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        599 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+run
+#        601 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        603 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        605 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        607 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        609 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        611 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        613 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        615 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        619 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        621 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        623 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        625 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        627 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        629 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        631 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        633 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        635 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        637 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        639 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        641 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        643 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        645 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        647 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        649 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        653 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        655 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        657 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        659 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        661 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        663 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        665 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        667 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        669 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        671 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        673 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        675 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        677 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        679 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        681 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        683 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        687 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        689 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        691 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        693 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        695 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        697 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        699 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+run
+#        701 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        703 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        705 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        707 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        709 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        711 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        713 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        715 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        717 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        721 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        723 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        725 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        727 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        729 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        731 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        733 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        735 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        737 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        739 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        741 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        743 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        745 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        747 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        749 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        751 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        755 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        757 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        759 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        761 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        763 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        765 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        767 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        769 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        771 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        773 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        775 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        777 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        779 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        781 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        783 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        785 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        789 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        791 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        793 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        795 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        797 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        799 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+run
+#        801 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        803 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        805 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        807 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        809 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        811 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        813 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        815 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        817 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        819 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        823 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        825 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        827 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        829 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        831 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        833 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        835 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        837 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        839 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        841 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        843 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        845 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        847 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        849 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        851 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        853 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        857 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        859 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        861 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        863 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        865 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        867 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        869 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        871 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        873 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        875 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        877 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        879 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        881 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        883 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        885 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        887 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        891 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        893 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        895 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        897 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        899 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+run
+#        901 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        903 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        905 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        907 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        909 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        911 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        913 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        915 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        917 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        919 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        921 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        925 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        927 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        929 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        931 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        933 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        935 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        937 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        939 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        941 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        943 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        945 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        947 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        949 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        951 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        953 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        955 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        959 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        961 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        963 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        965 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        967 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        969 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        971 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        973 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        975 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        977 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        979 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        981 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        983 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        985 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        987 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        989 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        993 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        995 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        997 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        999 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+run
+#       1001 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1003 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1005 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1007 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1009 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1011 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1013 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1015 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1017 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1019 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1021 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1023 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1027 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1029 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1031 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1033 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1035 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1037 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1039 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1041 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1043 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1045 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1047 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1049 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1051 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1053 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1055 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1057 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1061 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1063 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1065 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1067 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1069 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1071 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1073 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1075 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1077 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1079 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1081 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1083 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1085 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1087 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1089 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1091 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1095 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1097 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1099 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+run
+#       1101 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1103 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1105 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1107 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1109 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1111 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1113 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1115 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1117 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1119 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1121 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1123 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1125 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1129 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1131 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1133 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1135 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1137 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1139 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1141 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1143 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1145 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1147 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1149 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1151 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1153 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1155 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1157 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1159 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1163 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1165 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1167 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1169 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1171 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1173 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1175 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1177 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1179 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1181 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1183 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1185 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1187 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1189 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1191 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1193 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1197 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1199 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+run
+#       1201 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1203 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1205 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1207 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1209 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1211 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1213 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1215 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1217 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1219 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1221 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1223 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1225 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1227 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1231 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1233 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1235 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1237 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1239 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1241 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1243 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1245 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1247 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1249 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1251 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1253 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1255 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1257 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1259 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1261 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1265 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1267 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1269 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1271 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1273 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1275 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1277 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1279 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1281 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1283 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1285 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1287 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1289 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1291 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1293 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1295 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1299 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+run
+#       1301 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1303 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1305 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1307 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1309 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1311 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1313 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1315 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1317 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1319 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1321 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1323 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1325 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1327 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1329 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1333 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1335 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1337 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1339 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1341 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1343 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1345 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1347 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1349 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1351 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1353 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1355 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1357 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1359 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1361 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1363 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1367 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1369 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1371 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1373 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1375 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1377 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1379 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1381 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1383 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1385 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1387 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1389 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1391 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1393 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1395 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1397 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+run
+#       1401 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1403 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1405 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1407 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1409 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1411 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1413 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1415 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1417 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1419 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1421 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1423 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1425 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1427 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1429 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1431 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1435 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1437 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1439 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1441 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1443 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1445 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1447 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1449 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1451 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1453 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1455 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1457 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1459 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1461 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1463 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1465 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1469 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1471 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1473 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1475 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1477 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1479 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1481 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1483 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1485 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1487 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1489 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1491 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1493 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1495 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1497 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1499 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+run
+#       1503 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1505 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1507 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1509 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1511 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1513 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1515 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1517 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1519 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1521 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1523 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1525 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1527 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1529 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1531 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1533 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1537 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1539 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1541 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1543 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1545 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1547 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1549 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1551 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1553 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1555 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1557 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1559 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1561 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1563 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1565 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1567 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1571 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1573 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1575 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1577 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1579 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1581 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1583 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1585 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1587 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1589 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1591 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1593 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1595 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1597 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1599 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+run
+#       1601 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1605 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1607 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1609 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1611 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1613 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1615 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1617 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1619 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1621 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1623 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1625 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1627 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1629 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1631 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1633 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1635 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1639 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1641 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1643 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1645 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1647 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1649 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1651 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1653 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1655 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1657 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1659 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1661 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1663 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1665 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1667 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1669 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1673 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1675 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1677 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1679 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1681 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1683 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1685 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1687 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1689 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1691 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1693 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1695 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1697 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1699 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+run
+#       1701 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1703 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1707 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1709 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1711 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1713 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1715 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1717 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1719 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1721 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1723 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1725 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1727 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1729 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1731 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1733 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1735 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1737 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1741 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1743 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1745 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1747 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1749 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1751 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1753 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1755 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1757 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1759 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1761 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1763 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1765 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1767 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1769 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1771 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1775 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1777 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1779 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1781 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1783 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1785 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1787 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1789 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1791 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1793 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1795 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1797 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1799 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+run
+#       1801 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1803 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1805 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1809 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1811 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1813 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1815 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1817 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1819 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1821 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1823 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1825 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1827 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1829 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1831 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1833 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1835 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1837 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1839 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1843 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1845 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1847 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1849 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1851 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1853 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1855 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1857 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1859 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1861 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1863 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1865 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1867 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1869 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1871 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1873 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1877 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1879 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1881 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1883 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1885 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1887 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1889 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1891 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1893 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1895 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1897 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1899 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+run
+#       1901 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1903 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1905 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1907 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1911 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1913 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1915 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1917 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1919 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1921 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1923 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1925 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1927 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1929 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1931 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1933 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1935 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1937 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1939 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1941 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1945 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1947 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1949 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1951 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1953 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1955 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1957 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1959 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1961 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1963 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1965 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       1967 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       1969 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       1971 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       1973 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       1975 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       1979 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       1981 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       1983 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       1985 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       1987 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       1989 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       1991 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       1993 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       1995 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       1997 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       1999 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+run
+#       2001 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2003 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2005 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2007 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2009 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2013 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2015 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2017 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2019 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2021 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2023 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2025 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2027 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2029 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       2031 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       2033 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2035 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2037 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2039 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2041 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2043 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2047 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2049 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2051 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2053 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2055 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2057 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2059 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2061 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2063 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       2065 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       2067 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2069 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2071 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2073 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2075 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2077 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2081 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2083 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2085 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2087 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2089 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2091 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2093 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2095 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2097 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       2099 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+run
+#       2101 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2103 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2105 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2107 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2109 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2111 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2115 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2117 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2119 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2121 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2123 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2125 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2127 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2129 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2131 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       2133 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       2135 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2137 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2139 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2141 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2143 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2145 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2149 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2151 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2153 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2155 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2157 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2159 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2161 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2163 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2165 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       2167 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       2169 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2171 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2173 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2175 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2177 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2179 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2183 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2185 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2187 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2189 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2191 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2193 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2195 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2197 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2199 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+run
+#       2201 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       2203 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2205 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2207 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2209 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2211 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2213 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2217 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2219 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2221 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2223 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2225 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2227 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2229 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2231 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2233 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       2235 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       2237 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2239 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2241 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2243 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2245 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2247 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2251 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2253 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2255 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2257 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2259 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2261 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2263 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2265 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#       2267 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#       2269 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#       2271 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#       2273 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#       2275 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#       2277 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#       2279 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#       2281 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#       2285 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#       2287 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#       2289 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#       2291 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#       2293 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#       2295 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#       2297 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#       2299 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:47:42 on Feb 23,2021
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 15:47:42 on Feb 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do tcl1.do
+# End time: 15:48:03 on Feb 23,2021, Elapsed time: 0:18:10
+# Errors: 0, Warnings: 15
+# vsim work.TOP 
+# Start time: 15:48:03 on Feb 23,2021
+# Loading sv_std.std
+# Loading work.TOP
+# Loading work.OQPSK_MOD
+# Loading work.MEM_SIGNAL_ROM
+# Loading work.COUNT
+# Loading work.SHIFT_Q
+# Loading work.PRD
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LP'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/SHIFT_Q.sv(8).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(33): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'CNST'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'IC'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'QS'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# WARNING: No extended dataflow license exists
+run
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq0
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq0
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq1
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/iq1
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc0
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc0
+# ** Warning: (vsim-7) Failed to open readmem file "PI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc1
+# ** Warning: (vsim-7) Failed to open readmem file "NI_Q.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/MEM_SIGNAL_ROM.sv(17)
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/sc1
+#          0 mod.i=      x,mod.qo=  x,mod.q=x,mod.s=  x,mod.c=  x
+#          1 mod.i=      0,mod.qo=  0,mod.q=x,mod.s=  0,mod.c=  0
+#          3 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#          7 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#          9 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#         11 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#         13 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#         15 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#         17 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#         19 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#         21 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#         23 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#         25 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#         27 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#         29 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#         31 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+#         33 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#         35 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#         37 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#         41 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#         43 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#         45 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#         47 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#         49 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#         51 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#         53 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#         55 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#         57 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#         59 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#         61 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#         63 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#         65 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+#         67 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#         69 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#         71 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#         75 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#         77 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#         79 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#         81 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#         83 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#         85 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#         87 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#         89 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#         91 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#         93 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#         95 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#         97 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#         99 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+run
+#        101 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#        103 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#        105 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#        109 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#        111 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#        113 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#        115 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#        117 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#        119 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#        121 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#        123 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#        125 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#        127 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 93
+#        129 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c=116
+#        131 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 66,mod.c= 12
+#        133 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 75,mod.c= 35
+#        135 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 53
+#        137 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 62
+#        139 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 62
+#        143 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 53
+#        145 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 35
+#        147 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c= 12
+#        149 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 62,mod.c=116
+#        151 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 53,mod.c= 93
+#        153 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 35,mod.c= 75
+#        155 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 12,mod.c= 66
+#        157 mod.i=     44,mod.qo= 84,mod.q=x,mod.s=116,mod.c= 66
+#        159 mod.i=     44,mod.qo= 84,mod.q=x,mod.s= 93,mod.c= 75
+#        160 mod.i=     44,mod.qo= 84,mod.q=1,mod.s= 93,mod.c= 75
+#        161 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        163 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        165 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        167 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        169 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        171 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        173 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        177 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        179 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        181 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        183 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        185 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        187 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        189 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        191 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        193 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        195 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        197 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        199 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+run
+#        201 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        203 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        205 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        207 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        211 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        213 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        215 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        217 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        219 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        221 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        223 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        225 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        227 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        229 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        231 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        233 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        235 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        237 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        239 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        241 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        245 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        247 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        249 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        251 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        253 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        255 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        257 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        259 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        261 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        263 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        265 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        267 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        269 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        271 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        273 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        275 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        279 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        281 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        283 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        285 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        287 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        289 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        291 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        293 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        295 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        297 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        299 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+run
+#        301 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        303 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        305 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        307 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        309 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        313 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        315 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        317 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        319 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        321 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        323 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        325 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        327 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        329 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        331 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        333 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        335 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        337 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        339 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        341 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        343 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        347 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        349 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        351 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        353 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        355 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        357 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        359 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        361 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        363 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        365 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        367 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        369 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        371 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        373 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        375 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        377 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        381 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        383 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        385 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        387 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        389 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        391 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        393 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        395 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        397 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        399 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+run
+#        401 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        403 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        405 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        407 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        409 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        411 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        415 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        417 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        419 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        421 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        423 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        425 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        427 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        429 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        431 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        433 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        435 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        437 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        439 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        441 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        443 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        445 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        449 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        451 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        453 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        455 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        457 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        459 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        461 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        463 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        465 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        467 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        469 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        471 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        473 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        475 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        477 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        479 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        483 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        485 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        487 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        489 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        491 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        493 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        495 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        497 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        499 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+run
+#        501 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        503 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        505 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        507 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        509 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        511 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        513 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        517 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        519 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        521 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        523 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        525 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        527 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        529 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        531 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        533 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        535 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        537 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        539 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        541 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        543 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        545 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        547 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        551 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        553 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        555 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        557 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        559 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        561 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        563 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        565 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        567 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        569 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        571 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        573 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        575 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        577 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        579 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        581 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        585 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        587 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        589 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        591 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        593 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        595 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        597 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        599 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+run
+#        601 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        603 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        605 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        607 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        609 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        611 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        613 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        615 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        619 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        621 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        623 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        625 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        627 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        629 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        631 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        633 mod.i=     84,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        635 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        637 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        639 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        641 mod.i=     84,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        643 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        645 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        647 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        649 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        653 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        655 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        657 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        659 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        661 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        663 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        665 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        667 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        669 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        671 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        673 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        675 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        677 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        679 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        681 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        683 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        687 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        689 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        691 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        693 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        695 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        697 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        699 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+run
+#        701 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        703 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        705 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        707 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        709 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        711 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        713 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        715 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        717 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        721 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        723 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        725 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        727 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        729 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        731 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        733 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        735 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        737 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        739 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        741 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        743 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        745 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        747 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        749 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        751 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        755 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        757 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        759 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        761 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        763 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        765 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+#        767 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 66
+#        769 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 66
+#        771 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 75
+#        773 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 93
+#        775 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c=116
+#        777 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 66,mod.c= 12
+#        779 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 75,mod.c= 35
+#        781 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 93,mod.c= 53
+#        783 mod.i=     44,mod.qo= 44,mod.q=1,mod.s=116,mod.c= 62
+#        785 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 12,mod.c= 62
+#        789 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 53
+#        791 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 35
+#        793 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c= 12
+#        795 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 62,mod.c=116
+#        797 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 53,mod.c= 93
+#        799 mod.i=     44,mod.qo= 44,mod.q=1,mod.s= 35,mod.c= 75
+run -all
+#        800 mod.i=     44,mod.qo= 44,mod.q=0,mod.s= 35,mod.c= 75
+#        801 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#        803 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#        805 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#        807 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#        809 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#        811 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#        813 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#        815 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#        817 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#        819 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#        823 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#        825 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#        827 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#        829 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#        831 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#        833 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#        835 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#        837 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#        839 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#        841 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#        843 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#        845 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#        847 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#        849 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#        851 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#        853 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#        857 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#        859 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#        861 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#        863 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#        865 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#        867 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#        869 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#        871 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#        873 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#        875 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#        877 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#        879 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#        881 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#        883 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#        885 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#        887 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#        891 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#        893 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#        895 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#        897 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#        899 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#        901 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#        903 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#        905 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#        907 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#        909 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#        911 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#        913 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#        915 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#        917 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#        919 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#        921 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#        925 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#        927 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#        929 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#        931 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#        933 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#        935 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#        937 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#        939 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#        941 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#        943 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#        945 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#        947 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#        949 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#        951 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#        953 mod.i=     44,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#        955 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#        959 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#        961 mod.i=     44,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#        963 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#        965 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#        967 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#        969 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#        971 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#        973 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#        975 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#        977 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#        979 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#        981 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#        983 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#        985 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#        987 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#        989 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#        993 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#        995 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#        997 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#        999 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1001 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1003 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1005 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1007 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1009 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1011 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1013 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1015 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1017 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1019 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1021 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1023 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1027 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1029 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1031 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1033 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1035 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1037 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1039 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1041 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1043 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1045 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1047 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1049 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1051 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1053 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1055 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1057 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1061 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1063 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1065 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1067 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1069 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1071 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1073 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1075 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1077 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1079 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1081 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1083 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1085 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1087 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1089 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1091 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1095 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1097 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1099 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1101 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1103 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1105 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1107 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1109 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1111 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1113 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1115 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1117 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1119 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1121 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1123 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1125 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1129 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1131 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1133 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1135 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1137 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1139 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1141 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1143 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1145 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1147 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1149 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1151 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1153 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1155 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1157 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1159 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1163 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1165 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1167 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1169 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1171 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1173 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1175 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1177 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1179 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1181 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1183 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1185 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1187 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1189 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1191 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1193 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1197 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1199 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1201 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1203 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1205 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1207 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1209 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1211 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1213 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1215 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1217 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1219 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1221 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1223 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1225 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1227 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1231 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1233 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1235 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1237 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1239 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1241 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1243 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1245 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+#       1247 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 75
+#       1249 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 93
+#       1251 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c=116
+#       1253 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 66,mod.c= 12
+#       1255 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 75,mod.c= 35
+#       1257 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 93,mod.c= 53
+#       1259 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 62
+#       1261 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 62
+#       1265 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 53
+#       1267 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 35
+#       1269 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c= 12
+#       1271 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 62,mod.c=116
+#       1273 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 53,mod.c= 93
+#       1275 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 35,mod.c= 75
+#       1277 mod.i=     84,mod.qo= 84,mod.q=0,mod.s= 12,mod.c= 66
+#       1279 mod.i=     84,mod.qo= 84,mod.q=0,mod.s=116,mod.c= 66
+# ** Note: $finish    : C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv(46)
+#    Time: 1281 ns  Iteration: 0  Instance: /TOP
+# 1
+# Break in Module TOP at C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv line 46
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:00:30 on Feb 23,2021
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv 
+# -- Compiling module OQPSK_MOD
+# 
+# Top level modules:
+# 	OQPSK_MOD
+# End time: 17:00:30 on Feb 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:01:31 on Feb 23,2021
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 17:01:31 on Feb 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do tcl1.do
+# End time: 17:06:26 on Feb 23,2021, Elapsed time: 1:18:23
+# Errors: 0, Warnings: 15
+# vsim work.TOP 
+# Start time: 17:06:27 on Feb 23,2021
+# Loading sv_std.std
+# Loading work.TOP
+# Loading work.OQPSK_MOD
+# Loading work.MEM_SIGNAL_ROM
+# Loading work.COUNT
+# Loading work.SHIFT_Q
+# Loading work.PRD
+# ** Error: (vsim-8378) Port size (1) does not match connection size (2) for implicit .name connection port 'QOut'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv Line: 26
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LP'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/SHIFT_Q.sv(8).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(33): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'CNST'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'IC'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'QS'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tcl1.do PAUSED at line 1
+do tcl1.do
+# vsim work.TOP 
+# Start time: 17:06:27 on Feb 23,2021
+# Loading sv_std.std
+# Loading work.TOP
+# Loading work.OQPSK_MOD
+# Loading work.MEM_SIGNAL_ROM
+# Loading work.COUNT
+# Loading work.SHIFT_Q
+# Loading work.PRD
+# ** Error: (vsim-8378) Port size (1) does not match connection size (2) for implicit .name connection port 'QOut'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv Line: 26
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LP'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/SHIFT_Q.sv(8).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(33): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'CNST'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'IC'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'QS'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tcl1.do PAUSED at line 1
+do tcl1.do
+# vsim work.TOP 
+# Start time: 17:06:27 on Feb 23,2021
+# Loading sv_std.std
+# Loading work.TOP
+# Loading work.OQPSK_MOD
+# Loading work.MEM_SIGNAL_ROM
+# Loading work.COUNT
+# Loading work.SHIFT_Q
+# Loading work.PRD
+# ** Error: (vsim-8378) Port size (1) does not match connection size (2) for implicit .name connection port 'QOut'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv Line: 26
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LP'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/SHIFT_Q.sv(8).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(33): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'CNST'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'IC'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'QS'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tcl1.do PAUSED at line 1
+do tcl1.do
+# vsim work.TOP 
+# Start time: 17:06:27 on Feb 23,2021
+# Loading sv_std.std
+# Loading work.TOP
+# Loading work.OQPSK_MOD
+# Loading work.MEM_SIGNAL_ROM
+# Loading work.COUNT
+# Loading work.SHIFT_Q
+# Loading work.PRD
+# ** Error: (vsim-8378) Port size (1) does not match connection size (2) for implicit .name connection port 'QOut'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv Line: 26
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LP'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/SHIFT_Q.sv(8).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(33): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'CNST'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'IC'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'QS'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tcl1.do PAUSED at line 1
+vsim work.TOP
+# vsim work.TOP 
+# Start time: 17:06:27 on Feb 23,2021
+# Loading sv_std.std
+# Loading work.TOP
+# Loading work.OQPSK_MOD
+# Loading work.MEM_SIGNAL_ROM
+# Loading work.COUNT
+# Loading work.SHIFT_Q
+# Loading work.PRD
+# ** Error: (vsim-8378) Port size (1) does not match connection size (2) for implicit .name connection port 'QOut'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/TOP.sv Line: 26
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'inst4'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LP'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/SHIFT_Q.sv(8).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst4 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 33
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv(33): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'CNST'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'IC'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (1) for port 'QS'. The port definition is at: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/PRD.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /TOP/mod/inst5 File: C:/intelFPGA/18.1/VRL/OQPSK_MOD/simulation/modelsim/OQPSK_MOD.sv Line: 34
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tcl1.do PAUSED at line 1
+# End time: 17:10:18 on Feb 23,2021, Elapsed time: 0:03:51
+# Errors: 5, Warnings: 31

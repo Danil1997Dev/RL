@@ -1,0 +1,49 @@
+`timescale 1 ns/ 1 ns
+module TOP#(
+	parameter R=7,
+parameter Br=1,
+parameter N=16,
+parameter f0=10,
+parameter NBAR=5,
+parameter f=f0/Br,
+parameter SIZE=N*Br*f,
+parameter SIZE1=SIZE/2,
+parameter SIZEIQ=SIZE1/Br,
+parameter Ft=SIZE,
+parameter R1=$clog2((SIZE1-N)*NBAR),
+parameter Rint_i=(4*R+1),
+parameter Rint_o=(4*R+1)+R1,
+parameter D=4,
+
+	parameter NB=10
+	);
+	logic Clk;
+	logic Reset;
+	logic QOut;
+	logic [1:0] IQ;
+	logic [2*R-1:0] S;
+always #1 Clk=~Clk;
+	OQPSK_MOD #(.R(R),.Br(Br),.f0(f0),.N(N)) mod (.C(Clk),.Reset(Reset),.I(IQ[1]),.Q(IQ[0]),.S(S),.*);
+	
+	initial
+		begin
+			$monitor($stime,,"mod.i=%7d,mod.qo=%d,mod.q=%d,mod.s=%d,mod.c=%d",mod.i,mod.qo,mod.q,mod.s,mod.c);
+			Clk=0;
+			Reset=1;
+			IQ='bx;
+			@(posedge Clk);
+			Reset=0;
+			IQ=3;
+			#320 @(posedge Clk);
+			Reset=0;
+			IQ=1;
+			#320 @(posedge Clk);
+			Reset=0;
+			IQ=2;
+			#320 @(posedge Clk);
+			Reset=0;
+			IQ=0;
+			#320 $finish;
+		end
+endmodule
+	
